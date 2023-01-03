@@ -38,7 +38,7 @@ export default function Angebote({ data, pageContext, location }) {
 export const query = graphql`
   query {
     angeboteMainGatsbyImage: file(
-      relativePath: { eq: "content/angebot_main.jpeg" }
+      relativePath: { eq: "content/placeholder.png" }
     ) {
       childImageSharp {
         gatsbyImageData(
