@@ -1,10 +1,13 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-Website</h1>
+# Corporate Website - Built with Gatsby, ChakraUI, GraphQL und Strapi CMS
+
+## Preview of the landingpage
+
+![preview of the landingpage](gatsby-strapi-website/images/preview_home.png)
+
+## Preview a content stage & a filter component
+
+![preview of a content stage](rgatsby-strapi-website/src/images/preview_stage.png)
+![preview of a filter component](rgatsby-strapi-website/src/images/preview_filter.png)
 
 <a target="_blank" href="https://icons8.com/icon/YFn1QHQKdou6/ecommerce">Ecommerce</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
