@@ -5,7 +5,6 @@
 ![preview of the landingpage](src/images/preview_home.png)
 
 ## Preview a content stage & a filter component
-![preview of the landingpage](src/images/preview_home.png)
 ![preview of a content stage](src/images/preview_stage.png)
 ![preview of a filter component](src/images/preview_filter.png)
 
