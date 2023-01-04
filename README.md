@@ -14,6 +14,8 @@ My first GatsbyJS corporate website project from the field of "education". The w
 ![preview of a content stage](src/images/preview_stage.png)
 ![preview of a filter component](src/images/preview_filter.png)
 
+##Sources for icons/logos in that project:
+
 <a target="_blank" href="https://icons8.com/icon/YFn1QHQKdou6/ecommerce">Ecommerce</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 <a href="https://www.flaticon.com/free-icons/info" title="info icons">Info icons created by Freepik - Flaticon</a>
