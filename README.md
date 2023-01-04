@@ -14,7 +14,9 @@ My first GatsbyJS corporate website project from the field of "education". The w
 ![preview of a content stage](src/images/preview_stage.png)
 ![preview of a filter component](src/images/preview_filter.png)
 
-##Sources for icons/logos in that project:
+## Sources for icons/logos in that project:
+
+[Placeholder Logos](https://placeholder.com/)
 
 <a target="_blank" href="https://icons8.com/icon/YFn1QHQKdou6/ecommerce">Ecommerce</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
