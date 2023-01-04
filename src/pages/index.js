@@ -15,6 +15,7 @@ import {
 } from "react-icons/bs";
 
 export default function Home({ data, pageContext, location }) {
+  // Replace Placeholder Icon when implement real Project (see GraphQL Query at the bottom)
   const iconSchule = data.iconSchule.publicURL;
   const iconBeruf = data.iconBeruf.publicURL;
   const iconOrientierung = data.iconOrientierung.publicURL;

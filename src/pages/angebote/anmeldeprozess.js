@@ -18,6 +18,7 @@ import { Link as GatsbyLink } from "gatsby";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 
 export default function Anmeldeprozess({ data, pageContext, location }) {
+  // Replace Placeholder Image when implement real Project (see GraphQL Query at the bottom)
   const stageImage = data.stageImage;
 
   const stageContent = {

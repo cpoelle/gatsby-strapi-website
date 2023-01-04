@@ -19,6 +19,7 @@ import {
 } from "@chakra-ui/react";
 
 export default function Stellenangebote({ data, pageContext, location }) {
+  // Replace Placeholder Images when implement real Project (see GraphQL Query at the bottom)
   const refImage = data.angeboteRefGatsbyImage.childImageSharp.gatsbyImageData;
   const internImage =
     data.angeboteInternGatsbyImage.childImageSharp.gatsbyImageData;

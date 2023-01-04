@@ -8,6 +8,7 @@ import { SimpleGrid, chakra } from "@chakra-ui/react";
 import { graphql } from "gatsby";
 
 export default function Schule({ data, pageContext, location }) {
+  // Replace Placeholder Image/Icon when implement real Project (see GraphQL Query at the bottom)
   const iconSchule = data.iconSchule.publicURL;
   const schoolImage = data.schoolGatsbyImage.childImageSharp.gatsbyImageData;
 

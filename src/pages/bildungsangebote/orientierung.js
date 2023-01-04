@@ -8,6 +8,7 @@ import { SimpleGrid, chakra } from "@chakra-ui/react";
 import { graphql } from "gatsby";
 
 export default function Orientierung({ data, pageContext, location }) {
+  // Replace Placeholder Image/Icon when implement real Project (see GraphQL Query at the bottom)
   const iconOrientierung = data.iconOrientierung.publicURL;
   const orientationImage =
     data.orientationGatsbyImage.childImageSharp.gatsbyImageData;

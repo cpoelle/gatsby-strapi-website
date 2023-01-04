@@ -7,6 +7,7 @@ import { graphql } from "gatsby";
 import { chakra, Box, SimpleGrid } from "@chakra-ui/react";
 
 export default function Beratung({ data, pageContext, location }) {
+  // Replace Placeholder Image when implement real Project (see GraphQL Query at the bottom)
   const stageImage =
     data.angeboteBeratungGatsbyImage.childImageSharp.gatsbyImageData;
 

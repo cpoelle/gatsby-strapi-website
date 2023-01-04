@@ -5,6 +5,8 @@ import Content from "../components/Content";
 import { graphql } from "gatsby";
 
 export default function Auszeichnungen({ data, pageContext, location }) {
+  // Replace Placeholder Image when implement real Project (see GraphQL Query at the bottom)
+
   const famiImage = data.famiSiegelGatsbyImage.childImageSharp.gatsbyImageData;
   const lehrerpreisImage =
     data.lehrerPreisGatsbyImage.childImageSharp.gatsbyImageData;

@@ -5,6 +5,7 @@ import Content from "../../components/Content";
 import { graphql } from "gatsby";
 
 export default function Angebote({ data, pageContext, location }) {
+  // Replace Placeholder Image when implement real Project (see GraphQL Query at the bottom)
   const stageImage =
     data.angeboteMainGatsbyImage.childImageSharp.gatsbyImageData;
 

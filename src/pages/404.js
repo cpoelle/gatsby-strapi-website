@@ -1,6 +1,6 @@
-import React from "react"
-import Seo from "../components/seo"
-import Layout from "../components/Layout"
+import React from "react";
+import Seo from "../components/seo";
+import Layout from "../components/Layout";
 
 export default function NotFound({ pageContext, location }) {
   return (
@@ -12,5 +12,5 @@ export default function NotFound({ pageContext, location }) {
         </div>
       </Layout>
     </>
-  )
+  );
 }

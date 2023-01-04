@@ -9,7 +9,7 @@ import { SimpleGrid, Box, chakra } from "@chakra-ui/react";
 import { graphql } from "gatsby";
 
 export default function Bildungsangebote({ data, pageContext, location }) {
-  // Placeholder Icon needs to be replaced with correct icons when implement real Project (see GraphQL Query at the bottom)
+  // Replace Placeholder Image/Icon when implement real Project (see GraphQL Query at the bottom)
   const iconSchule = data.iconSchule.publicURL;
   const iconBeruf = data.iconBeruf.publicURL;
   const iconOrientierung = data.iconOrientierung.publicURL;

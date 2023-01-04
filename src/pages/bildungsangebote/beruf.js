@@ -8,6 +8,7 @@ import { SimpleGrid, chakra } from "@chakra-ui/react";
 import { graphql } from "gatsby";
 
 export default function Beruf({ data, pageContext, location }) {
+  // Replace Placeholder Image/Icon when implement real Project (see GraphQL Query at the bottom)
   const iconBeruf = data.iconBeruf.publicURL;
   const workImage = data.workGatsbyImage.childImageSharp.gatsbyImageData;
 

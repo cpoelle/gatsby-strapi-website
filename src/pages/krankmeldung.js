@@ -1,6 +1,6 @@
-import React, { useState } from "react"
-import Seo from "../components/seo"
-import Layout from "../components/Layout"
+import React, { useState } from "react";
+import Seo from "../components/seo";
+import Layout from "../components/Layout";
 import {
   chakra,
   Box,
@@ -14,7 +14,7 @@ import {
   RadioGroup,
   Radio,
   VStack,
-} from "@chakra-ui/react"
+} from "@chakra-ui/react";
 
 export default function Krankmeldung({ pageContext, location }) {
   const initialState = {
@@ -23,20 +23,20 @@ export default function Krankmeldung({ pageContext, location }) {
     course: "",
     person: "",
     reason: "",
-  }
+  };
 
-  const [newSickLeave, setNewSickLeave] = useState(initialState)
+  const [newSickLeave, setNewSickLeave] = useState(initialState);
 
-  const handleSubmit = e => {
-    e.preventDefault()
-  }
-  const handleInputChange = e => {
-    const target = e.currentTarget
-    const value = target.value
-    const name = target.name
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+  const handleInputChange = (e) => {
+    const target = e.currentTarget;
+    const value = target.value;
+    const name = target.name;
 
-    setNewSickLeave({ ...newSickLeave, [name]: value })
-  }
+    setNewSickLeave({ ...newSickLeave, [name]: value });
+  };
 
   return (
     <>
@@ -234,5 +234,5 @@ export default function Krankmeldung({ pageContext, location }) {
         </Box>
       </Layout>
     </>
-  )
+  );
 }
